@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not Dead & Not For Sale- Registro</title>
+    <script defer src="../tppo_FontIntegrador_HTML&CSS&JS/js/ValidacionFormulario.js"></script>
+    <link rel="stylesheet" href="../boobstrap/bobstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../tppo_FontIntegrador_HTML&CSS&JS/css/contacto.css">
+    <link rel="shortcut icon" href="imagenes_tppo1/stp_favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/935569a972.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <header class="cabecera">
+
+            <div class="logo">
+
+                <img src="imagenes_tppo1/ndlogo3.jpg" alt="logo">
+
+            </div>
+
+            <div class="titulo"> <!--contiene animación-->
+
+                <h1>Not Dead & Not For Sale</h1>
+                <h3>El fansite n° 1 sobre Stone Temple Pilots</h3>
+
+            </div>
+
+            <div class="deco">
+
+                <img src="imagenes_tppo1/stp7.jpg" alt="stp">
+
+            </div>
+
+        </header>
+
+        <main class="medio">
+
+            <nav>
+
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="historia.html" target="_blank">Historia</a></li>
+                    <li><a href="noticias.html" target="_blank">Noticias</a></li>
+                    <li><a href="Discografia.html" target="_blank">Discografía</a></li>
+                    <li><a href="Wallpapers.html" target="_blank">Wallpapers</a></li>
+                    <li><a href="Videos.html" target="_blank">Videos</a></li>
+                    <li><a href="Contacto.html" target="_blank">Contacto</a></li>
+
+
+                </ul>
+
+            </nav>
+
+
+            <div class="card" style="background-color: rgb(82, 81, 81);">
+
+                <div class="card-body" style="padding: 30px;">
+
+
+
+                    <form action="Contacto.html" method="POST" id="formulario" onsubmit="return validar();">
+
+                        <h2
+                            style="color: white; font-size: 25px; margin: 10px 0; font-family: 'Tahoma'; text-align: center;">
+                            Déjenos un comentario</h2>
+
+                        <div class="form-group">
+                            <label for="name" style="font-family: 'Roboto'; font-size: 20px; color: white;">Nombre y
+                                Apellido:</label>
+                            <input type="texto" class="form-control" id="nombre" name="nombre">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" style="font-family: 'Roboto'; font-size: 20px; color: white;">Correo
+                                Electrónico:</label>
+                            <input type="text" class="form-control" id="email" name="email">
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="comment"
+                                style="font-family: 'Roboto'; font-size: 20px; color: white;">Comentario:</label>
+                            <input type="text" class="form-control" id="comentario" name="comentario"
+                                style="height: 120px;">
+
+                        </div>
+
+
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+
+                    <div id="error"
+                        style="margin: 13px 0; color: red; font-size: 20px; font-weight: 600;  text-align: center;">
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+        </main>
+
+
+        <footer class="pie">
+
+            <div class="iconos">
+
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-spotify"></i>
+                <i class="fab fa-snapchat"></i>
+
+
+            </div>
+
+            <div class="legal">
+
+                <h4>Copyright © 2021 / Designed by Alan Totero</h4>
+
+            </div>
+
+
+        </footer>
+
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>
